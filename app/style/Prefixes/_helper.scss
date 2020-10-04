@@ -1,0 +1,35 @@
+.w-fc {
+  width: fit-content;
+}
+.ta-c {
+  text-align: center;
+}
+.flex {
+  display: flex;
+  &-jc-sb {
+    justify-content: space-between;
+  }
+  &-jc-se {
+    justify-content: space-evenly;
+  }
+  &-jc-sa {
+    justify-content: space-around;
+  }
+  &-jc-c {
+    justify-content: center;
+  }
+  &-jc-s {
+    justify-content: start;
+  }
+  &-ai-c {
+    align-items: center;
+  }
+  &-ai-s {
+    align-items: start;
+  }
+}
+.mar {
+  &-c {
+    margin: 0 auto;
+  }
+}

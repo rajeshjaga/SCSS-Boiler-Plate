@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:active,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+button,
+button:active,
+button:focus {
+  border: none;
+  background: transparent;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.w-fc {
+  width: fit-content;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+.flex-jc-sb {
+  justify-content: space-between;
+}
+.flex-jc-se {
+  justify-content: space-evenly;
+}
+.flex-jc-sa {
+  justify-content: space-around;
+}
+.flex-jc-c {
+  justify-content: center;
+}
+.flex-jc-s {
+  justify-content: start;
+}
+.flex-ai-c {
+  align-items: center;
+}
+.flex-ai-s {
+  align-items: start;
+}
+
+.mar-c {
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: serif;
+}
+
+p,
+span,
+button,
+a {
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

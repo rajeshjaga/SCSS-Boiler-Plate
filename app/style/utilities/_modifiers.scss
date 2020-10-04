@@ -1,0 +1,7 @@
+@use '../Designs/media';
+@use 'sass:map';
+@mixin mediaup($size, $visible) {
+  @include media.breakUp($size) {
+    display: $size;
+  }
+}
